@@ -7,6 +7,7 @@ stage = StageClass()
 stage.set_background ("grey")
 
 
+
 q1 = codesters.Square(100, 100, 200, 'pink')
 q2 = codesters.Square(-100, 100, 200, 'yellow')
 q3 = codesters.Square(-100, -100, 200, 'pink')
