@@ -1,0 +1,11 @@
+while True:
+    word = input("what do you think your allowed to bring?")
+
+    if "x" in word and len(word) > 8: 
+        print (f"You can bring {word}")
+    else:
+        print(f"You can't bring {word}")
+
+    print("")
+    
+        
