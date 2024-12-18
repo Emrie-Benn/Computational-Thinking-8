@@ -1,5 +1,5 @@
 while True:
-    word = input("what do you think your allowed to bring?")
+    word = input("what are you allowed to bring?")
 
     if "x" in word and len(word) > 8: 
         print (f"You can bring {word}")
