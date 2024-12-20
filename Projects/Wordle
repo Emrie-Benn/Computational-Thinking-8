@@ -17,7 +17,7 @@ for i in range(6):
         output += "🟨"
     else:
         output += "⬛"
-
+    
     #Second letter aka (1)
     if guess_word[1] == hidden_word[1]:
         output += "🟩"
@@ -49,7 +49,9 @@ for i in range(6):
         output += "🟨"
     else:
         output += "⬛"
-
+    
+    if len(guess_word) > 5:
+        print("Word is to long") 
 
     #result
     print(output)
