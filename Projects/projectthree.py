@@ -1,13 +1,15 @@
-#start
+
 import turtle
 
-#middle
+#Setup
 
 t = turtle. Turtle()
 t.penup()
 t.goto(100,-100)
 t.pendown()
 t.speed(100)
+
+#Picture
 
 t.color ( "light blue" )
 for i in range(1000):
@@ -41,6 +43,6 @@ for i in range(200):
     t.forward(5)
     t.left(5)
 
-#ending
+#Finish
 
 turtle.exitonclick()
