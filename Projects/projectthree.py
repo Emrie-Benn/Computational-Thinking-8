@@ -9,7 +9,7 @@ t.goto(100,-100)
 t.pendown()
 t.speed(100)
 
-#Picture
+#Background
 
 t.color ( "light blue" )
 for i in range(1000):
@@ -19,6 +19,8 @@ for i in range(1000):
 t.penup()
 t.goto(150,-250)
 t.pendown()
+
+#Mountains
 
 t.color ( "grey" )
 for i in range (700):
@@ -33,6 +35,8 @@ t.color ( "grey" )
 for i in range (500):
     t.forward(10 +i)
     t.left(120)
+
+#sun
 
 t.penup()
 t.goto(-200,100)
